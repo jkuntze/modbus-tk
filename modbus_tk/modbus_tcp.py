@@ -39,7 +39,7 @@ class TcpMbap(object):
         self.transaction_id = 0
         self.protocol_id = 0
         self.length = 0
-        self.unit_id = 0
+        self.unit_id = 100
 
     def clone(self, mbap):
         """Set the value of each fields from another TcpMbap instance"""
